@@ -14,6 +14,10 @@ namespace SortedList
             //Elemanlar listeleniyor
             foreach(string eleman in auzef.Keys)
                 Console.WriteLine(eleman + ": "+ auzef[eleman]);
+
+            Console.WriteLine(auzef.GetKey(0));
+            Console.WriteLine(auzef.IndexOfKey("BLPR"));
+            Console.WriteLine(auzef.IndexOfValue("Ilahiyat"));
         }
     }
 }
